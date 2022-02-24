@@ -74,7 +74,7 @@ class App extends Component {
 					</button>
 				</form>
 				{this.state.show && (
-					<div className="m-10 flex flex-wrap border-2 border-slate-700 bg-indigo-300">
+					<div className="m-10 max-w-max flex flex-wrap border-2 border-slate-700 bg-indigo-300">
 						{this.state.emp.map((i) => (
 							<div className="m-6 border-2 border-slate-700 rounded-3xl bg-pink-300">
 								<p className="p-6 text-lg font-medium">
